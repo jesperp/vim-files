@@ -1,13 +1,10 @@
 vim-files
 =========
-Performance boosting abbreviations and helpers for programming
+Performance boosting abbreviations and helpers (Python, Javascript and more)
 
-```
-inoremap <C-J> <ESC>/…<cr>s
-func Eatchar(pat)
-  let c = nr2char(getchar(0))
-  return (c =~ a:pat) ? '' : c
-endfunc
-```
+
+`inoremap <C-J> <ESC>/…<cr>s`
+
+
 
 asdf
