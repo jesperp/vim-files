@@ -1,6 +1,7 @@
 vim-files
 =========
 Vim abbreviations and placeholders for fast and smooth editing!
+
 ![switch-test-js](https://cloud.githubusercontent.com/assets/376921/14764217/7c4ff740-09b0-11e6-96bf-339458171517.gif)
 ![list-compr-py](https://cloud.githubusercontent.com/assets/376921/14764219/81368800-09b0-11e6-9487-a6990ae6eea1.gif)
 
