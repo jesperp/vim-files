@@ -2,4 +2,4 @@ vim-files
 =========
 Abbreviations and placeholder editing
 
-![alt text](/i/list-compr-py.gif?raw=true "optional")
+<img src="https://raw.githubusercontent.com/jesperp/vim-files/master/i/switch-test-js.gif?raw=true">
