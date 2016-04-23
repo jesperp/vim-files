@@ -3,7 +3,9 @@ vim-files
 Performance boosting abbreviations and helpers (Python, Javascript and more)
 
 
-`inoremap <C-J> <ESC>/…<cr>s`
+```vim
+inoremap <C-J> <ESC>/…<cr>s
+```
 
 
 
