@@ -11,7 +11,7 @@ let &softtabstop = s:tablength
 iabbr for( for (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
 iabbr while( while (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
 iabbr if( if (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
-iabbr switch( switch (●) {<cr>case …: …<cr>break<cr>default:<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
+iabbr switch( switch (●) {<cr>case …: …<cr>default: …<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
 iabbr do{ do {<cr>●<cr>} while (…)<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
 
 " Syntastic, detect and use eslint
