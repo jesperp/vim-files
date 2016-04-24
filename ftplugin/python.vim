@@ -54,6 +54,6 @@ match TrailingWhitespace /\s\+$/
 "setl textwidth=79   " Hardcore PEP8
 
 " Short hand (Eatchar must exist, see ":helpgrep Eatchar")
-iabbrev def def ●(…):<cr>…<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
-iabbrev [for] [● for … in …]<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
-iabbrev (for) (● for … in …)<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
+iabbrev def def ●(…):<cr>…<C-O>?●<cr><C-O>x<C-R>=Eatchar('\s')<CR>
+iabbrev [for] [● for … in …]<C-O>?●<cr><C-O>x<C-R>=Eatchar('\s')<CR>
+iabbrev (for) (● for … in …)<C-O>?●<cr><C-O>x<C-R>=Eatchar('\s')<CR>
