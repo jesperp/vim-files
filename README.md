@@ -8,12 +8,12 @@ Vim abbreviations and placeholders for fast and smooth editing!
 The unicode [triple dot](http://www.fileformat.info/info/unicode/char/2026/index.htm) is used as a placeholder since it's compact and probably wont ever conflict with your code when jumping.
 
 ### Setup
-Enable the filetype abbreviations by putting the `ftplugin` directory in `$VIMHOME/after/`. To jump between placeholders in insert mode using `ctrl+j` set the following remap (this 
+Enable the filetype abbreviations by putting the `ftplugin` directory in `$VIMHOME/after/`. To jump between placeholders in insert mode using <kbd>ctrl</kbd>+<kbd>j</kbd> set the following remap (this 
 
     inoremap <C-J> <C-O>/…<cr><C-O>x
 
 ### Usage
-Start typing the following abbreviations in insert mode followed by space
+Start typing the following abbreviations in insert mode followed by <kbd>space</kbd>, <kbd>tab</kbd> or <kbd>enter</kbd>
 
 #### Javascript
 * `for(`
