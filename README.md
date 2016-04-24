@@ -2,8 +2,8 @@
 
 Vim abbreviations and placeholders for fast and smooth editing!
 
-![switch-test-js](https://cloud.githubusercontent.com/assets/376921/14764217/7c4ff740-09b0-11e6-96bf-339458171517.gif)
-![list-compr-py](https://cloud.githubusercontent.com/assets/376921/14764219/81368800-09b0-11e6-9487-a6990ae6eea1.gif)
+![js-switch](https://cloud.githubusercontent.com/assets/376921/14764651/437c294c-09c0-11e6-90c3-6ce717cf176b.gif)
+![py-list-compr](https://cloud.githubusercontent.com/assets/376921/14764672/55db5792-09c1-11e6-81fd-82b2d8f90cec.gif)
 
 The unicode [triple dot](http://www.fileformat.info/info/unicode/char/2026/index.htm) is used as a placeholder since it's compact and probably wont ever conflict with your code when jumping.
 
