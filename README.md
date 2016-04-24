@@ -10,7 +10,7 @@ The unicode [triple dot](http://www.fileformat.info/info/unicode/char/2026/index
 ### Setup
 Enable the filetype abbreviations by putting the `ftplugin` directory in `$VIMHOME/after/`. To jump between placeholders in insert mode using `ctrl+j` set the following remap (this 
 
-    inoremap <C-J> <C-O>/…<cr><C-O>s
+    inoremap <C-J> <C-O>/…<cr><C-O>x
 
 ### Usage
 Start typing the following abbreviations in insert mode followed by space
