@@ -8,11 +8,12 @@ let &shiftwidth = s:tablength
 let &softtabstop = s:tablength
 
 " Short hand (Eatchar must exist, see ":helpgrep Eatchar")
-iabbr for( for (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
-iabbr while( while (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
-iabbr if( if (●) {<cr>…<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
-iabbr switch( switch (●) {<cr>case …: …<cr>default: …<cr>}<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
-iabbr do{ do {<cr>●<cr>} while (…)<esc>:call search('●', 'b')<cr>s<C-R>=Eatchar('\s')<CR>
+" Use of <C-O> is to avoid flashing when switching between modes
+iabbr for( for (●) {<cr>…<cr>}<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
+iabbr while( while (●) {<cr>…<cr>}<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
+iabbr if( if (●) {<cr>…<cr>}<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
+iabbr switch( switch (●) {<cr>case …: …<cr>default: …<cr>}<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
+iabbr do{ do {<cr>●<cr>} while (…)<C-O>?●<cr><C-O>s<C-R>=Eatchar('\s')<CR>
 
 " Syntastic, detect and use eslint
 let b:syntastic_checkers = findfile('.eslintrc', '.;') != '' ? ['eslint'] : ['standard']
